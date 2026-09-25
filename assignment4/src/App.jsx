@@ -1,5 +1,6 @@
 import "./App.css";
 import background from "./assets/background.jpg";
+import profileImage from "./assets/sekiro.jpg";
 
 function ProfileCard(props) {
   return (
@@ -20,7 +21,7 @@ function App() {
 
       <ProfileCard
         name="Siddharth Phadtare"
-        image="src/assets/sekiro.jpg"
+        image={profileImage}
         description="Data Engineer Celebal Technologies | Student Representative of MCA in Board of Studies MIT-WPU | MCA @ MIT-WPU | BSc Cs @ SCOS"
       />
     </div>
