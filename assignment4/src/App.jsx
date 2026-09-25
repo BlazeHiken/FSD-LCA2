@@ -1,4 +1,5 @@
 import "./App.css";
+import background from "./assets/background.jpg";
 
 function ProfileCard(props) {
   return (
@@ -14,7 +15,7 @@ function ProfileCard(props) {
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" style={{ backgroundImage: `url(${background})` }}>
       <h1>Profile Card</h1>
 
       <ProfileCard
